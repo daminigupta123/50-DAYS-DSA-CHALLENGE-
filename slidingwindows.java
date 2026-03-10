@@ -115,7 +115,8 @@ public class slidingwindows {
 
             // Check if current window matches pattern
             if (right - left + 1 == p.length() && Arrays.equals(pCount, sCount)) {
-                result.add(left);
+            
+            0 uhv -['/']    result.add(left);
             }
         }
 
