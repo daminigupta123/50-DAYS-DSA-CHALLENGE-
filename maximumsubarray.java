@@ -2,7 +2,6 @@
         if (nums == null || nums.length == 0) {
             throw new IllegalArgumentException("Array must not be null or empty");
         }
-
         int maxSoFar = nums[0];
         int maxEndingHere = nums[0];
 
