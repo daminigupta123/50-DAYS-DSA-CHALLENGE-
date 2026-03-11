@@ -6,11 +6,11 @@ public class javapractice {
             // System.out.println(i);
         // }
         Scanner sc=new Scanner(System.in);
+            System.out.println("enter the number to find table ");
         int n=sc.nextInt();
-        int sum=0;
-        for(int i=1;i<=n;i++){
-            sum=sum+i;
-        }
-         System.out.println("Sum of first " + n + " natural numbers is: " + sum);
-    }
+        
+        for(int i=0;i<=n;i++){
+                    
+         System.out.println("table  is: " + n*i);
+    }}
 }
