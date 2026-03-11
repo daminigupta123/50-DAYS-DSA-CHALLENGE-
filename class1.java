@@ -55,26 +55,23 @@ System.out.println("List3 (copy of list): " + List3);
 //duplicate rmeove
 HashSet<Integer> set=new HashSet<>(list3);
 System.out.println("List with duplicates removed: " + new ArrayList<>(set));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//frq count 
+int frq=10;
+int count=0;
+for(int num:list3){
+    if(num==frq){
+        count++;
+    }
+}
+System.out.println("Frequency of " + frq + ": " + count);
+Arraylist<Arraylist<Integer>>
+Arraylist<Integer>row1 =new Arraylist<>();
+row1.add(20);
+row1.add(50);
+Arraylist<Integer>row2 =new Arraylist<>();
+row2.add(20);
+row2.add(57);
+row2.add(57);
 }
 }
+// old capacity+old capacity / 2= new capacity     
