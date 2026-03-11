@@ -1,4 +1,3 @@
-public class MaximumSubarray {
     public static int maxSubArray(int[] nums) {
         if (nums == null || nums.length == 0) {
             throw new IllegalArgumentException("Array must not be null or empty");
@@ -14,7 +13,6 @@ public class MaximumSubarray {
 
         return maxSoFar;
     }
-
     public static void main(String[] args) {
         // Example 1
         int[] nums1 = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
@@ -32,4 +30,3 @@ public class MaximumSubarray {
         int[] nums4 = {-1, -2, -3};
         System.out.println("All negative: " + maxSubArray(nums4)); // Output: -1
     }
-}
