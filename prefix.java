@@ -9,5 +9,20 @@ public class prefix {
         for(int j=0;j<arr.length;j++){
             System.out.print(prefix[j]+" ");
         }
+        int left =0;
+        int target=5;
+        int right =arr.length-1;
+        while(left<right){
+            int sum=arr[left]+arr[right];
+            if(sum==target){
+                System.out.println("Pair found: "+arr[left]+", "+arr[right]);
+                left++;
+                right--;
+            } else if(sum<target){
+                left++;
+            } else {
+                right--;
+            }
+        }
     }
 }
