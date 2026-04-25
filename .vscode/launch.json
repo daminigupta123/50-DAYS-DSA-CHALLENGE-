@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "OnlineTestSystem",
+      "request": "launch",
+      "mainClass": "OnlineTestSystem",
+      "projectName": "DSA SEET_f85ec225"
+    },
+    {
+      "type": "java",
       "name": "quiz",
       "request": "launch",
       "mainClass": "quiz",
