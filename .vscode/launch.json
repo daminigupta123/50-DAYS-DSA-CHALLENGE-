@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "quiz",
+      "request": "launch",
+      "mainClass": "quiz",
+      "projectName": "DSA SEET_f85ec225"
+    },
+    {
+      "type": "java",
+      "name": "MCQQuiz",
+      "request": "launch",
+      "mainClass": "MCQQuiz",
+      "projectName": "DSA SEET_f85ec225"
+    },
+    {
+      "type": "java",
       "name": "prefix",
       "request": "launch",
       "mainClass": "prefix",
