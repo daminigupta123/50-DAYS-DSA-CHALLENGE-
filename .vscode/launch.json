@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "stackusarray",
+      "request": "launch",
+      "mainClass": "stackusarray",
+      "projectName": "DSA SEET_f85ec225"
+    },
+    {
+      "type": "java",
       "name": "OnlineTestSystem",
       "request": "launch",
       "mainClass": "OnlineTestSystem",
