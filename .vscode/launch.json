@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "linkedlisttraversel",
+      "request": "launch",
+      "mainClass": "linkedlisttraversel",
+      "projectName": "DSA SEET_f85ec225"
+    },
+    {
+      "type": "java",
       "name": "stackusarray",
       "request": "launch",
       "mainClass": "stackusarray",
